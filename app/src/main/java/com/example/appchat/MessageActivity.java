@@ -302,7 +302,7 @@ public class MessageActivity extends AppCompatActivity {
         // dam bao du lieu luu lai tt trong android
         SharedPreferences.Editor editor = getSharedPreferences("PREFS", MODE_PRIVATE).edit();
         editor.putString("currentuser", userid);
-        editor.apply();
+       // editor.apply();
     }
 //
        private void status(String status){
